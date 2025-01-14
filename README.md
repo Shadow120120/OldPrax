@@ -1,7 +1,7 @@
 # portfolio.github.io
 web site designed for an Restaurant
 
-Images of menu are fetched from drive here.
+Images of menu are fetched from drive here. If incase images can't be uploaded.
 
 [Chicken 65](https://drive.google.com/uc?export=view&id=1DUwFJVznvGNGuxrK7AmnOPc_2L1NDTrr)
 [Checken Cheese Macroni](https://drive.google.com/uc?export=view&id=11D7IcW-ejRT4U5RZozf_nhdhQmOMW-kk)
