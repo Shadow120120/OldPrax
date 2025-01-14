@@ -55,7 +55,10 @@
 /* -------------------------------About---------------------------------- */
 .body{
     overflow-x: hidden;
+    width:100%;
+    max-width: 100%;
     }
+
 .about{
     width: 100%;
     max-width: 100%;
@@ -66,14 +69,22 @@
     padding-top: 18PX;
        
 }
-.content
-{
-    margin-top: 10%;
-    margin-left: 40%;
+
+.content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 10px;
+    flex-wrap: wrap;
 }
 
-.content span{
-    color: orangered;
+
+.content img{
+    width: 25%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 25px;
+   
 }
 
 .content p:first-child::first-letter {
@@ -87,9 +98,10 @@
     color: aliceblue;
     line-height: 35px;
     padding-top: 50px;
-    width:80%;
+    width:70%;
     font-style: italic;
-}
+    }
+
 
 .content a{
     margin-left: 62px;
@@ -116,18 +128,7 @@
 }
 
 
-   .images{
-    max-width: 100%;
-    width: 100%;
-    height: auto;
-    float: right;
-    position: absolute;
-    top:80px;
-    left:0;
-    
-   }
-
-.slider{
+   .slider{
     margin-top: 5%;
     position: relative;
     width: 100%;
