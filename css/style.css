@@ -55,10 +55,11 @@
     }
 .about{
     width: 100%;
+    max-width: 100%;
+    height: auto;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/bgtop.png);
     background-position: center;
     background-size: cover;
-    height: 100vh;
     padding-top: 18PX;
        
 }
@@ -113,40 +114,38 @@
 
 
    .images{
-    /* float: right;
-    width: 100%;
     max-width: 100%;
-    height: 80%;
-    position: absolute;
-    bottom: 0;
-    left: 200px;
-    top: 80px; */
+    width: 100%;
+    height: auto;
     float: right;
     position: absolute;
     top:80px;
     left:0;
-    width: 100%;
-    height: auto;
+    
    }
 
 .slider{
-    height: 250px;
     margin-top: 5%;
     position: relative;
-    width: 90%;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: grid;
     place-items: center;
 }
 
 .slider .slide-track{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: flex;
-    width: calc(250px *21);
     animation: scroll 40s linear infinite;
 }
 
 .slide-track .slide{
-    height: 400px;
-    width: 400px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     padding: 15px;
@@ -154,10 +153,10 @@
 } 
 
 .slide img{
-    height: 400px;
+    height: auto;
     width: 400px;
     padding: 15px;
-    transition: transform 1s;;
+    transition: transform 1s;
    }
 
 .slide img:hover{
@@ -176,10 +175,11 @@
    /* ---------------------------------Menu------------------------------- */
    .Menu{
     width: 100%;
+    max-width: 100%;
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(../images/bgtop2.png);
     background-position: center;
     background-size: cover;
-    height: 240vh;
+    height: auto;
     padding-top: 18PX;
    }
 
@@ -193,18 +193,24 @@
    .Menu .details{
     padding: 0px 30px;
     border-left: 2px solid #bababa;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
    }
 
    .Menu .details img{
     position:relative;
-    left: 280px;
+    width:100%;
     height: auto;
-    max-width:100%;
    }
 
    .buttons a{
+    width: 10%;
+    max-width: 100%;
+    height: auto;
     margin-top: 30px;
-    margin-left: 800px;
+    margin-left: 40%;
+    
     font-size: 14px;
     text-decoration: none;
     color: aliceblue;
